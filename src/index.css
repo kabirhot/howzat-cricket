@@ -77,3 +77,16 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #475569;
 }
+
+/* Utility animation helpers used in the app (Tailwind v4 compatibility) */
+.animate-fade-in {
+  animation: fade-in 0.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+.animate-float {
+  animation: float 3s infinite ease-in-out;
+}
